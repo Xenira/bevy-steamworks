@@ -17,9 +17,9 @@ default = []
 docs-only = ["steamworks/docs-only"]
 
 [dependencies]
-bevy_log = "0.6"
-bevy_app = "0.6"
-bevy_ecs = "0.6"
+bevy_log = { git = "https://github.com/bevyengine/bevy" }
+bevy_app = { git = "https://github.com/bevyengine/bevy" }
+bevy_ecs = { git = "https://github.com/bevyengine/bevy" }
 steamworks = { git = "https://github.com/Noxime/steamworks-rs" }
 parking_lot = "0.12"
 
